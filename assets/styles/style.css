@@ -211,7 +211,7 @@ nav h2 {
     text-align: center;
     padding: 50px 40px;
 }
-  
+
 .u-btn a span {
     font-weight: 500;
     font-size: 25px;
@@ -285,6 +285,7 @@ nav h2 {
 footer {
     background: #fff;
 }
+
 .footer-part {
     padding: 100px 0;
     display: flex;
@@ -343,6 +344,7 @@ ul.footer-menu li a:hover {
 #email {
     margin-bottom: 30px;
 }
+
 input[type=email] {
     width: 100%;
     padding: 12px 20px;
@@ -350,12 +352,14 @@ input[type=email] {
     box-sizing: border-box;
     border: 2px solid #FF900E;
     border-radius: 4px;
-    
+
 }
+
 .input[type=email]:focus {
     background-color: #FF900E;
     border: 2px solid #FF900E;
 }
+
 form .primary-btn {
     color: #fff;
     font-size: 16px;
