@@ -118,7 +118,6 @@ nav h2 {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
-    /* box-shadow: 1px 16px 17px -9px #000000bf; */
 }
 
 .banner-img img {
@@ -163,10 +162,8 @@ nav h2 {
 }
 
 .extra-features {
-    width: 1440px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 100px;
     position: relative;
 }
 
@@ -214,7 +211,7 @@ nav h2 {
     text-align: center;
     padding: 50px 40px;
 }
-
+  
 .u-btn a span {
     font-weight: 500;
     font-size: 25px;
@@ -222,9 +219,10 @@ nav h2 {
 }
 
 /* card section style  */
-/* .card-section {
-    margin-bottom: 180px;
-} */
+.card-section {
+    margin-top: 130px;
+}
+
 .all-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -239,7 +237,7 @@ nav h2 {
     border-radius: 8px;
     text-align: center;
     cursor: pointer;
-    transition: ease 1s;
+    transition: ease-in-out 1s;
 }
 
 .card:hover {
@@ -264,3 +262,107 @@ nav h2 {
     font-size: 20px;
     line-height: 23px;
 }
+
+/* Sponsors section style  */
+
+.section-text {
+    text-align: center;
+}
+
+.sponsors {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.sponsor-img img {
+    filter: grayscale(100%);
+}
+
+/* Footer section Style  */
+
+footer {
+    background: #fff;
+}
+.footer-part {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-part h3 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+h3.footer-logo {
+    font-size: 45px;
+    font-weight: 700;
+    color: #FF900E;
+}
+
+ul.footer-menu li a {
+    font-size: 16px;
+    line-height: 38px;
+    color: #727272;
+    transition: all .3s ease-in-out;
+}
+
+ul.footer-menu li a:hover {
+    color: #000;
+}
+
+.footer-tab p {
+    padding-bottom: 10px;
+}
+
+.Footer-cr {
+    background: #FFF4E7;
+}
+
+.Footer-cr h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.Footer-cr b {
+    color: #000;
+}
+
+.Footer-cr span {
+    color: #FF900E;
+}
+
+#email {
+    margin-bottom: 30px;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #FF900E;
+    border-radius: 4px;
+    
+}
+.input[type=email]:focus {
+    background-color: #FF900E;
+    border: 2px solid #FF900E;
+}
+form .primary-btn {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* end  */
